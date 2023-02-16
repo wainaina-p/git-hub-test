@@ -1,0 +1,19 @@
+.ant-form-item {
+    margin-bottom: 11px !important;
+  }
+
+.ant-picker-cell-in-view.ant-picker-cell-selected .ant-picker-cell-inner{
+    background-color: #1089FF;
+}
+
+  .rbc-btn-group {
+    flex-wrap: wrap !important;
+  }
+  .rbc-toolbar {
+    
+    flex-wrap: wrap;
+}
+.rbc-header {
+ 
+  background-color: #7474BF;
+}

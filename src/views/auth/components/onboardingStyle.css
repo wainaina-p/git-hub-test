@@ -1,0 +1,33 @@
+.card-container {
+  margin: 0;
+}
+/* .card-container > .ant-tabs-card .ant-tabs-content {
+  
+} */
+
+.card-container .tabpane-title {
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 12.5px;
+}
+
+.font-icon {
+  /* background-color: white;
+  padding: 2px; */
+  border-radius: 80%;
+}
+
+.aki-icon {
+  color: #b9ac39;
+}
+.provider-icon {
+  color: #40a9ff;
+}
+
+.insurance-icon {
+  color: #b0f644;
+}
+.member-icon {
+  color: #ff2527;
+}

@@ -1,0 +1,45 @@
+[
+  {
+    "icon": "HomeOutlined",
+    "key": "Dashboard",
+    "label": "Dashboard",
+    "url": "/"
+  },
+
+  {
+    "icon": "TeamOutlined",
+    "key": "Staff Management",
+    "label": "Staff Management",
+    "url": "/staff-management",
+    "children": [
+      {
+        "key": "staff-register",
+        "label": "Staff Register",
+        "url": "/staff-management/staff-register"
+      },
+      {
+        "key": "new-staff",
+        "label": "New Staff",
+        "url": "/staff-management/new-staff"
+      }
+    ]
+  },
+
+  {
+    "icon": "SettingOutlined",
+    "key": "administration",
+    "label": "Administration",
+    "children": [
+      {
+        "key": "user-management",
+        "label": "Users & Roles",
+        "url": "/user-management"
+      },
+      {
+        "key": "system",
+        "label": "System",
+        "url": "/settings/system"
+      }
+    ]
+  }
+]

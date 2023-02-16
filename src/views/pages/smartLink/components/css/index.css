@@ -1,0 +1,12 @@
+
+.table-row-selected  {
+    background-color: #e6f7ff;
+  }
+  .table-row-not-selected {
+    background-color: #ffffff;
+  }
+  
+.ant-table-tbody > tr:hover > td {
+  background: #e6f7ff !important;
+
+}

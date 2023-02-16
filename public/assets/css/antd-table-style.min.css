@@ -1,0 +1,118 @@
+/*===================================================================
+                            Antd Table Style 
+ ====================================================================*/
+
+/* line background color*/
+.ant-table-thead th {
+  text-align: center !important;
+  background: #0f2231 !important;
+  /* border: solid 1px red !important */
+  border-top: solid 1px #cdd8ed !important;
+  border-bottom: solid 1px #cdd8ed !important;
+  font-size: bold !important;
+  color: white !important;
+}
+.ant-table-thead > tr > th:last-child {
+  /* border-right: solid 1px #cdd8ed !important; */
+}
+.ant-table-thead > tr > th:first-child {
+  /* border-left: solid 1px #cdd8ed !important; */
+}
+.ant-table-tbody > tr > td {
+  border-bottom: solid 1px #cdd8ed !important;
+}
+.ant-table-tbody > tr > td:last-child {
+  /* border-right: solid 1px #cdd8ed !important; */
+}
+.ant-table-tbody > tr > td:first-child {
+  /* border-left: solid 1px #cdd8ed !important; */
+}
+/* .ant-table-tbody > tr:first-child > td{ 
+    border-top: solid 1px #cdd8ed !important;
+ } */
+
+.ant-table-tbody > tr > td {
+  text-align: center !important;
+  background-color: #f2f2f2 !important;
+}
+.ant-table-tbody > tr:nth-child(odd) > td {
+  text-align: center !important;
+  background: #ffffff !important;
+}
+
+/*hover background odd*/
+.ant-table-tbody > tr:hover > td {
+  background: #c6d5fe !important;
+  border-top: solid 1px #c6d5fe !important;
+  border-bottom: solid 1px #c6d5fe !important;
+}
+.ant-table-tbody > tr:hover > td:first-child {
+  /* border-left: solid 1px #C6D5FE !important; */
+}
+.ant-table-tbody > tr:hover:nth-child(even) > td:last-child {
+  /* border-right: solid 1px #C6D5FE !important; */
+}
+.ant-table-tbody > tr:hover:nth-child(even):last-child > td {
+  border-bottom: solid 1px #c6d5fe !important;
+}
+/*hover background even  C6D5FE */
+.ant-table-tbody > tr:hover:nth-child(odd) > td {
+  background: #c6d5fe !important;
+  border-top: solid 1px #c6d5fe !important;
+  border-bottom: solid 1px #c6d5fe !important;
+}
+.ant-table-tbody > tr:hover:nth-child(odd) > td:first-child {
+  /* border-left: solid 1px #C6D5FE !important; */
+}
+.ant-table-tbody > tr:hover:nth-child(odd) > td:last-child {
+  /* border-right: solid 1px #C6D5FE !important; */
+}
+
+/*pagination*/
+.ant-table-pagination.ant-pagination {
+  margin: 10px 0 !important;
+}
+.ant-pagination-item {
+  background-color: #e7ebee !important;
+  border-radius: 0 !important;
+  border: 1px solid #e7ebee !important;
+  margin-left: 10px !important;
+}
+.ant-pagination-item-link:after,
+.ant-pagination-jump-prev:after,
+.ant-pagination-jump-next:after {
+  background-color: #e7ebee !important;
+  border-radius: 0 !important;
+  border: 1px solid #e7ebee !important;
+}
+.ant-pagination-next,
+.ant-pagination-jump-prev,
+.ant-pagination-jump-next {
+  margin-left: 10px !important;
+}
+
+.ant-pagination-jump-prev:after,
+.ant-pagination-jump-next:after {
+  color: #999 !important;
+}
+.ant-pagination-item-link:first-child {
+  /* margin-right:10px !important; */
+}
+.ant-pagination-item a,
+.ant-pagination-item-link:after {
+  color: #999 !important;
+}
+.ant-pagination-item-active {
+  background-color: #4985ff !important;
+  border-radius: 0 !important;
+  border: 1px solid #4985ff !important;
+}
+.ant-pagination-item-active a {
+  color: #fff !important;
+}
+.table-row-light {
+  background-color: #ffffff;
+}
+.table-row-dark {
+  background-color: #fbfbfb;
+}

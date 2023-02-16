@@ -1,0 +1,10 @@
+{
+  "Dashboard": {
+    "origin": [
+      [
+        "src/pages/dashboard/view.js",
+        12
+      ]
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+.ant-form-item-control {
+  line-height: 0px;
+}
+.ant-table-body {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+.ant-table-thead {
+  background-color: rgb(232, 232, 232);
+}
+.ant-table {
+  /* font-size: inherit; */
+}
+
+.skip-btn {
+  color: white !important;
+  backgroundcolor: #ff8b26;
+}

@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.received-claims  tr:nth-child(2n) td {
+    background-color: #fbfbfb;
+}
+.received-claims thead {
+    background-color: #f1f1f1;
+}
+

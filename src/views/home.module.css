@@ -1,0 +1,31 @@
+.content-wrapper {
+  min-height: 100vh !important;
+  top: 0px;
+  
+}
+
+.header {
+  padding: 0 !important;
+  /* width: calc(100% - 80px); */
+  position: fixed;
+  height: 40px;
+  top: 0;
+  z-index: 1000;
+}
+
+.content {
+  padding-top: 50px !important;
+  margin: 10px 13px;
+}
+.social-icons{
+ 
+  cursor: pointer;
+  height: 12px;
+  padding-bottom : 20px !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .content {
+    margin: 2px;
+  }
+}

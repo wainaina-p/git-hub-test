@@ -1,0 +1,31 @@
+#login-container {
+  background: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.login-form {
+  max-width: 400px;
+}
+.login-form-forgot {
+  float: right;
+}
+.login-form-button {
+  width: 100%;
+}
+
+.forgot-pwd-btn {
+  font-size: 14px;
+  color: #e34c8c;
+  line-height: 1.4;
+  cursor: pointer;
+}
+
+.form-antd-input {
+  font-weight: bold !important;
+}
+.signup-form-button {
+  float: right;
+}
